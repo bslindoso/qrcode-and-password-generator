@@ -1,5 +1,5 @@
 import chalk from "chalk"
-import { orangeHex, weniHex, pinkHex } from "../color-conts.mjs"
+import { weniHex, pinkHex } from "../color-conts.mjs"
 
 const descriptionContent = chalk.hex(weniHex).bold(`\n(1) QRCODE GENERATOR\n`)
   + chalk.hex(pinkHex).bold(`(2) PASSWORD GENERATOR`)
