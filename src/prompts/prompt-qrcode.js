@@ -1,5 +1,5 @@
 import chalk from "chalk"
-import { orangeHex } from "../color-conts.mjs"
+import { weniHex } from "../color-conts.mjs"
 
 const promptQRCode = [
   {
