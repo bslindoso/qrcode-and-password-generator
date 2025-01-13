@@ -3,7 +3,7 @@ import { weniHex, pinkHex } from "../color-conts.mjs"
 
 const descriptionContent = chalk.hex(weniHex).bold(`\n(1) QRCODE GENERATOR\n`)
   + chalk.hex(pinkHex).bold(`(2) PASSWORD GENERATOR`)
-const mainPrompt = [
+const promptSchemaMain = [
   {
     name: "select",
     description: descriptionContent,
@@ -13,4 +13,4 @@ const mainPrompt = [
   }
 ]
 
-export default mainPrompt
+export default promptSchemaMain

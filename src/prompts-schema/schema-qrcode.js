@@ -1,7 +1,7 @@
 import chalk from "chalk"
 import { weniHex } from "../color-conts.mjs"
 
-const promptQRCode = [
+const promptSchemaQRCode = [
   {
     name: "link",
     description: chalk.hex(weniHex)(`Digite o link para gerar o QR Code`),
@@ -15,4 +15,4 @@ const promptQRCode = [
   }
 ]
 
-export default promptQRCode
+export default promptSchemaQRCode
